@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="3.1.0.0" name="It_s_About_Time.exe" publicKeyToken="ec50a208a2d94729" language="en" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\time.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="It_s_About_Time" version="3.1.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="It_s_About_Time.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="It_s_About_Time.exe" size="6725120">
+      <assemblyIdentity name="It_s_About_Time" version="3.1.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xSmxx3ozDP2p1DVTpeu23xG3zOg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\time.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uF2mVjJ2mFDluQEJT+V6GAGvwMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=STUDENT-PC136\Student" issuerKeyHash="0d2f064e5bcb607bbaba8b1854f42d1964707920" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>w/8zkej6twKb5kxI0x1jC6en3E4=</DigestValue></Reference></SignedInfo><SignatureValue>dHQ/OEmtBSmfXyqbNDu7WDuBn01SQVhFjflTg5ff2yi0ihaG+oNDASU8juUGWfKIJ2kYRWgZs+L6G/c6wj4QdF5IW0lE87Z7Fn7a4R+zTy6gKBJn07AGLU1mk6Iv2SLClarRocNLCsjb2286uURKqM3G7L2mBlcCwEZAUTpr5Io=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>opsbUaIWebUZlErohMS2p9ljgO/9CU6+jvheTLn4U7FaJ1OCLAC/QMYNAwV8RQ5M4aUQZpr8MKa1qNNsgMsaQCwfAX38xchGxhLx6rw5T7t80oL2P95Fblwm4sUbiFUoYLBGkim0mPFBiffWIdmx8gS9Lhnj2tVmLcFIBEvKR7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4edca7a70b631dd3484ce69b02b7fae89133ffc3" Description="" Url=""><as:assemblyIdentity version="3.1.0.0" name="It_s_About_Time.exe" publicKeyToken="ec50a208a2d94729" language="en" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STUDENT-PC136\Student</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7fK1NcGh51eNl/vYIfxDQeG879k=</DigestValue></Reference></SignedInfo><SignatureValue>L8ysEbk4y5DaeOsnpCNeLSPxzZkW78XKu6XVLGJS/QLid6sMsePGUcfpwNiLuQty4/vi9Ey6um15aoInQ7f+L9SNlF6RWxRLlzHPxYwNAyGB+50WdVS0dvMCmQ0jAPhbkCPj7KlDL2b7tYhQzmFi9XMV3olJiZnXkKYvCVlhBkw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>opsbUaIWebUZlErohMS2p9ljgO/9CU6+jvheTLn4U7FaJ1OCLAC/QMYNAwV8RQ5M4aUQZpr8MKa1qNNsgMsaQCwfAX38xchGxhLx6rw5T7t80oL2P95Fblwm4sUbiFUoYLBGkim0mPFBiffWIdmx8gS9Lhnj2tVmLcFIBEvKR7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQW+BCZ82l1pRKPCPCtLHF6DANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMANgBcAFMAdAB1AGQAZQBuAHQwHhcNMTUwMzExMTYxMTIwWhcNMTYwMzEwMjIxMTIwWjA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMANgBcAFMAdAB1AGQAZQBuAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKKbG1GiFnm1GZRK6ITEtqfZY4Dv/QlOvo74Xky5+FOxWidTgiwAv0DGDQMFfEUOTOGlEGaa/DCmtajTbIDLGkAsHwF9/MXIRsYS8eq8OU+7fNKC9j/eRW5cJuLFG4hVKGCwRpIptJjxQYn31iHZsfIEvS4Z49rVZi3BSARLyke1AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAfs7Vg5Om4h8XAFBCmLWucGlwg4XhAUIrtTNsZW0NJnXv2MWwp3dTYDdwTnMObYH7iYTgSkXIv7vC4woQg2DCMxtB7O/p05Ph1Dtcs/eB0ng7vvVNU+tuL79EKzE0X54EWimNUmzzMKhfXPcmo1UCs1jn4BmTVgiFL/7Bv5mqekg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
