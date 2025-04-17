@@ -1,5 +1,5 @@
 # It's About Time
-"It's About Time" - version 3.1 is a counter programmed for counting down as a timer and counting up as a stopwatch.
+It's About Time v3.1 is a counter programmed for counting down as a timer and counting up as a stopwatch.
 
 To activate the timer, reset the numbers of HH:MM:SS to the needed duration and start counting observing the progress bar.
 To play an alarm and show a specific message after the specified duration, enter its text content in the text box.
@@ -13,3 +13,5 @@ To close the program after the specified duration, enter "close" - lower-case le
 To activate the stopwatch, reset the numbers of HH:MM:SS as 0:0:0 and start counting.
 
 13/03/2015 | Eslam Abdullah
+
+P.S. Only setup files are available. Unfortunately, source code is lost.
